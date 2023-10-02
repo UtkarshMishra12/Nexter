@@ -47,6 +47,11 @@
     &:hover{
         background-color: $color-primary-dark;
     }
+
+    &:active{
+        transform: translateY(.5rem);
+        box-shadow: 0 2rem 4rem rgba(#000,0.3);
+    }
 }
 
 .mb-sm { margin-bottom: 2rem; }
